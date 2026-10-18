@@ -1,7 +1,10 @@
 # BLACKGLASS Lounge
 
 A calm, remote-friendly front door for existing TizenPortal bookmarks.
-Optional TizenBrew module, version 0.1.0. Browser tested; TV testing in progress.
+Optional TizenBrew module, version 0.1.0. Browser tested and installed on a
+Samsung Tizen 5.5 TV. Menu rendering, remote navigation, shared bookmarks, and
+website launch are verified. A player attempt stalled; playback through this
+module is not yet verified.
 
 ## Features
 
@@ -53,3 +56,6 @@ tested on the target device before relying on the module for daily viewing.
 
 No analytics, microphone, camera, credentials, or household bookmark data are
 included in this repository.
+
+## Device check - 2026-10-18
+The module survived closing and reopening TizenBrew, with the local preview server stopped. Existing saved cards were recognized. The test site opened its catalog and player without its prior QR overlay, but the selected stream stalled blank. This is menu and launch verification, not successful playback or a full TV reboot test.
