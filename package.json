@@ -1,0 +1,13 @@
+{
+  "name": "blackglass-lounge",
+  "version": "0.1.0",
+  "private": true,
+  "appName": "BLACKGLASS Lounge",
+  "description": "A calm, remote-friendly front door for your existing TizenPortal cards.",
+  "packageType": "mods",
+  "websiteURL": "https://axelnanol.github.io/tizenportal/dist/index.html?v=1120",
+  "main": "dist/blackglass.js",
+  "keys": ["MediaPlayPause", "MediaPlay", "MediaPause", "MediaStop", "MediaFastForward", "MediaRewind", "MediaTrackNext", "MediaTrackPrevious", "ColorF0Red", "ColorF1Green", "ColorF2Yellow", "ColorF3Blue"],
+  "scripts": {"build": "node build.cjs"},
+  "files": ["dist/blackglass.js", "LICENSE-TizenPortal", "README.md"]
+}
